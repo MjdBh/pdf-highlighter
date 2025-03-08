@@ -1,0 +1,136 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.file-upload {
+  margin-bottom: 15px;
+}
+
+.file-upload input {
+  margin-left: 10px;
+}
+
+.viewer-section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 600px;
+}
+
+.simple-pdf-viewer {
+  height: 100%;
+  min-height: 600px;
+  border: 1px solid #e0e0e0;
+}
+
+.simple-pdf-viewer .toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.simple-pdf-viewer .toolbar button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.simple-pdf-viewer .toolbar button:hover {
+  background-color: #f0f0f0;
+}
+
+.simple-pdf-viewer .toolbar button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.simple-pdf-viewer .pdf-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  overflow: auto;
+}
+
+.simple-pdf-viewer canvas {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.simple-pdf-viewer .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 18px;
+  color: #666;
+}
+
+.json-input {
+  margin-top: 15px;
+}
+
+.json-input textarea {
+  width: 100%;
+  min-height: 150px;
+  font-family: monospace;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.json-input button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.json-input button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.success {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
